@@ -1,0 +1,820 @@
+{
+  "seed": 2026091601,
+  "repeats": 3,
+  "records": [
+    {
+      "index": 0,
+      "family": "B_blocks",
+      "label": "r=1",
+      "n": 10,
+      "m": 11,
+      "input_sha256": "b6fb8f52a189c317b8b52ad59027d0d024aa2db4e417582be91c3c66692a7bec",
+      "seconds": [
+        0.0018799669999793878,
+        0.000519134999990456,
+        0.00048791900002242983
+      ],
+      "median_seconds": 0.000519134999990456,
+      "python_peak_bytes": 31896,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 4,
+        "stats": {
+          "n": 10,
+          "m": 11,
+          "beta_total": 2,
+          "beta_max": 2,
+          "cyclic_blocks": 1,
+          "boundary_flags": 5,
+          "augmented_vertices": 10,
+          "space_vectors": 3,
+          "induced_cycles": 3,
+          "leaf_covers": 3
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 1,
+      "family": "B_blocks",
+      "label": "r=4",
+      "n": 40,
+      "m": 47,
+      "input_sha256": "958f7c9d0c404926e2866f4d66b65044d62a414d17d4d43e920e66e08fb0c09b",
+      "seconds": [
+        0.0013391090000141048,
+        0.0013390290000074856,
+        0.0013050079999743502
+      ],
+      "median_seconds": 0.0013390290000074856,
+      "python_peak_bytes": 78848,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 4,
+        "stats": {
+          "n": 40,
+          "m": 47,
+          "beta_total": 8,
+          "beta_max": 2,
+          "cyclic_blocks": 4,
+          "boundary_flags": 20,
+          "augmented_vertices": 40,
+          "space_vectors": 12,
+          "induced_cycles": 12,
+          "leaf_covers": 12
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 2,
+      "family": "B_blocks",
+      "label": "r=16",
+      "n": 160,
+      "m": 191,
+      "input_sha256": "5ef9efdd53b2f12ca9677a18b5490d864dae0234ddb9d58198ab0904588dfb71",
+      "seconds": [
+        0.004571204999990641,
+        0.004352347000008194,
+        0.005103518999987955
+      ],
+      "median_seconds": 0.004571204999990641,
+      "python_peak_bytes": 255816,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 4,
+        "stats": {
+          "n": 160,
+          "m": 191,
+          "beta_total": 32,
+          "beta_max": 2,
+          "cyclic_blocks": 16,
+          "boundary_flags": 80,
+          "augmented_vertices": 160,
+          "space_vectors": 48,
+          "induced_cycles": 48,
+          "leaf_covers": 48
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 3,
+      "family": "B_blocks",
+      "label": "r=64",
+      "n": 640,
+      "m": 767,
+      "input_sha256": "870539b749e41cea39d7c3f7d98d2d996b42a47fe4e3c22828feb90adf4a98d6",
+      "seconds": [
+        0.017968725000002905,
+        0.019696784999950978,
+        0.018348852000031002
+      ],
+      "median_seconds": 0.018348852000031002,
+      "python_peak_bytes": 515786,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 4,
+        "stats": {
+          "n": 640,
+          "m": 767,
+          "beta_total": 128,
+          "beta_max": 2,
+          "cyclic_blocks": 64,
+          "boundary_flags": 320,
+          "augmented_vertices": 640,
+          "space_vectors": 192,
+          "induced_cycles": 192,
+          "leaf_covers": 192
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 4,
+      "family": "B_blocks",
+      "label": "r=256",
+      "n": 2560,
+      "m": 3071,
+      "input_sha256": "2b4c645d3d2d45048f7c977339f262f04bd0b2fefb0d72f08db14e2d32e32c79",
+      "seconds": [
+        0.07333968899996535,
+        0.07370589499998914,
+        0.07045165700003508
+      ],
+      "median_seconds": 0.07333968899996535,
+      "python_peak_bytes": 1244186,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 4,
+        "stats": {
+          "n": 2560,
+          "m": 3071,
+          "beta_total": 512,
+          "beta_max": 2,
+          "cyclic_blocks": 256,
+          "boundary_flags": 1280,
+          "augmented_vertices": 2560,
+          "space_vectors": 768,
+          "induced_cycles": 768,
+          "leaf_covers": 768
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 5,
+      "family": "B_blocks",
+      "label": "r=600",
+      "n": 6000,
+      "m": 7199,
+      "input_sha256": "8415f962d9acde7f26c250e26a0120ef8170ac393371a45132af28ae5a9a3ad5",
+      "seconds": [
+        0.16446417600002405,
+        0.1664026290000038,
+        0.16931015000000116
+      ],
+      "median_seconds": 0.1664026290000038,
+      "python_peak_bytes": 2910294,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 4,
+        "stats": {
+          "n": 6000,
+          "m": 7199,
+          "beta_total": 1200,
+          "beta_max": 2,
+          "cyclic_blocks": 600,
+          "boundary_flags": 3000,
+          "augmented_vertices": 6000,
+          "space_vectors": 1800,
+          "induced_cycles": 1800,
+          "leaf_covers": 1800
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 6,
+      "family": "B_rank",
+      "label": "beta=1",
+      "n": 60,
+      "m": 60,
+      "input_sha256": "46a318d65b7ffb1ba9955a0efcf8161c360357b4bb98ac30c4a4fea5704be1dc",
+      "seconds": [
+        0.0010778190000451104,
+        0.0010358170000017708,
+        0.0010944830000312322
+      ],
+      "median_seconds": 0.0010778190000451104,
+      "python_peak_bytes": 120288,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 30,
+        "stats": {
+          "n": 60,
+          "m": 60,
+          "beta_total": 1,
+          "beta_max": 1,
+          "cyclic_blocks": 1,
+          "boundary_flags": 30,
+          "augmented_vertices": 60,
+          "space_vectors": 1,
+          "induced_cycles": 1,
+          "leaf_covers": 1
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 7,
+      "family": "B_rank",
+      "label": "beta=2",
+      "n": 60,
+      "m": 61,
+      "input_sha256": "2ffecce95ae478b8aebc7aa76846509ff05f9dc5ecadc7c91903e89874c4b383",
+      "seconds": [
+        0.0012138419999701,
+        0.0012086339999655138,
+        0.001268632999995134
+      ],
+      "median_seconds": 0.0012138419999701,
+      "python_peak_bytes": 120608,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 16,
+        "stats": {
+          "n": 60,
+          "m": 61,
+          "beta_total": 2,
+          "beta_max": 2,
+          "cyclic_blocks": 1,
+          "boundary_flags": 30,
+          "augmented_vertices": 60,
+          "space_vectors": 3,
+          "induced_cycles": 2,
+          "leaf_covers": 2
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 8,
+      "family": "B_rank",
+      "label": "beta=3",
+      "n": 60,
+      "m": 62,
+      "input_sha256": "9f20e703c31910727d3f20b5c22e4d327394ba3718255d4614f6a9ac0d5f8605",
+      "seconds": [
+        0.0020185629999787125,
+        0.0020942560000207777,
+        0.0020680769999898985
+      ],
+      "median_seconds": 0.0020680769999898985,
+      "python_peak_bytes": 121104,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 22,
+        "stats": {
+          "n": 60,
+          "m": 62,
+          "beta_total": 3,
+          "beta_max": 3,
+          "cyclic_blocks": 1,
+          "boundary_flags": 30,
+          "augmented_vertices": 60,
+          "space_vectors": 7,
+          "induced_cycles": 6,
+          "leaf_covers": 6
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 9,
+      "family": "B_rank",
+      "label": "beta=4",
+      "n": 60,
+      "m": 63,
+      "input_sha256": "07dcd0a91576bc974b3af722756b5cd4474b1dec684331faea33bc60509ff2bb",
+      "seconds": [
+        0.0025713079999718502,
+        0.002590376999989985,
+        0.0026925290000008317
+      ],
+      "median_seconds": 0.002590376999989985,
+      "python_peak_bytes": 121488,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 22,
+        "stats": {
+          "n": 60,
+          "m": 63,
+          "beta_total": 4,
+          "beta_max": 4,
+          "cyclic_blocks": 1,
+          "boundary_flags": 30,
+          "augmented_vertices": 60,
+          "space_vectors": 15,
+          "induced_cycles": 9,
+          "leaf_covers": 10
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 10,
+      "family": "B_rank",
+      "label": "beta=5",
+      "n": 60,
+      "m": 64,
+      "input_sha256": "27078dde64b73172f3ed8ccdbfba3165f268ad3d7742f07ae2b6eeedecc9f3e0",
+      "seconds": [
+        0.003948043999969286,
+        0.0042454980000457,
+        0.0038936320000289015
+      ],
+      "median_seconds": 0.003948043999969286,
+      "python_peak_bytes": 122016,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 20,
+        "stats": {
+          "n": 60,
+          "m": 64,
+          "beta_total": 5,
+          "beta_max": 5,
+          "cyclic_blocks": 1,
+          "boundary_flags": 30,
+          "augmented_vertices": 60,
+          "space_vectors": 31,
+          "induced_cycles": 15,
+          "leaf_covers": 18
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 11,
+      "family": "B_rank",
+      "label": "beta=6",
+      "n": 60,
+      "m": 65,
+      "input_sha256": "a669cb73698c976ef413910d2440628cfd42bac968d1c37293ed742fc7f8ed52",
+      "seconds": [
+        0.0040750129999764795,
+        0.004073129999994762,
+        0.004300138999951741
+      ],
+      "median_seconds": 0.0040750129999764795,
+      "python_peak_bytes": 122560,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 18,
+        "stats": {
+          "n": 60,
+          "m": 65,
+          "beta_total": 6,
+          "beta_max": 6,
+          "cyclic_blocks": 1,
+          "boundary_flags": 30,
+          "augmented_vertices": 60,
+          "space_vectors": 63,
+          "induced_cycles": 15,
+          "leaf_covers": 23
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 12,
+      "family": "B_rank",
+      "label": "beta=8",
+      "n": 60,
+      "m": 67,
+      "input_sha256": "07195c266db179640a33c21394f98cdac63a4ca65f1caaedbe4ad9a0807c74d8",
+      "seconds": [
+        0.00870340300002681,
+        0.009128395999994154,
+        0.008536864000006972
+      ],
+      "median_seconds": 0.00870340300002681,
+      "python_peak_bytes": 123504,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 18,
+        "stats": {
+          "n": 60,
+          "m": 67,
+          "beta_total": 8,
+          "beta_max": 8,
+          "cyclic_blocks": 1,
+          "boundary_flags": 30,
+          "augmented_vertices": 60,
+          "space_vectors": 255,
+          "induced_cycles": 31,
+          "leaf_covers": 68
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 13,
+      "family": "B_rank",
+      "label": "beta=10",
+      "n": 60,
+      "m": 69,
+      "input_sha256": "b2ccaeb1fa28de159fe648e05e59c0149f9125fa41693e19c4efa6c79474748c",
+      "seconds": [
+        0.014245596000023397,
+        0.01508751200003644,
+        0.014155031000029794
+      ],
+      "median_seconds": 0.014245596000023397,
+      "python_peak_bytes": 124512,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 16,
+        "stats": {
+          "n": 60,
+          "m": 69,
+          "beta_total": 10,
+          "beta_max": 10,
+          "cyclic_blocks": 1,
+          "boundary_flags": 30,
+          "augmented_vertices": 60,
+          "space_vectors": 1023,
+          "induced_cycles": 36,
+          "leaf_covers": 157
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 14,
+      "family": "B_rank",
+      "label": "beta=12",
+      "n": 60,
+      "m": 71,
+      "input_sha256": "158cf41cf75d016a01503ec06d45fcc7c2512ff002c279b69453ee554bdd1591",
+      "seconds": [
+        0.04544851399998606,
+        0.042420024000023204,
+        0.04316228000004685
+      ],
+      "median_seconds": 0.04316228000004685,
+      "python_peak_bytes": 125360,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "kappa": 20,
+        "stats": {
+          "n": 60,
+          "m": 71,
+          "beta_total": 12,
+          "beta_max": 12,
+          "cyclic_blocks": 1,
+          "boundary_flags": 30,
+          "augmented_vertices": 60,
+          "space_vectors": 4095,
+          "induced_cycles": 64,
+          "leaf_covers": 585
+        }
+      },
+      "validation": "returned minimal-bad witness checked by edge removal and induced forest",
+      "status": "passed"
+    },
+    {
+      "index": 15,
+      "family": "C_chain",
+      "label": "L=1",
+      "n": 4,
+      "m": 6,
+      "branches": 4,
+      "target_n": 10,
+      "target_m": 12,
+      "input_sha256": "19b0c110acbd028ac4a0462986c4b115afaee082cedb91794947106152aae56d",
+      "seconds": [
+        0.007121671999982482,
+        0.007325555000022632,
+        0.007247668999980306
+      ],
+      "median_seconds": 0.007247668999980306,
+      "python_peak_bytes": 40008,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -9,
+        "optimal_count": "1",
+        "total_count": "64",
+        "branch_assignments": 2401
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 1,
+      "total_count_bits": 7,
+      "status": "passed"
+    },
+    {
+      "index": 16,
+      "family": "C_chain",
+      "label": "L=3",
+      "n": 16,
+      "m": 18,
+      "branches": 4,
+      "target_n": 34,
+      "target_m": 36,
+      "input_sha256": "f17064df71a87888b5867bbeafa9ccc85472e4f2c7fe4fc9e232f264a052bbf2",
+      "seconds": [
+        0.010861052999985077,
+        0.011001512999996521,
+        0.011505014000022129
+      ],
+      "median_seconds": 0.011001512999996521,
+      "python_peak_bytes": 68720,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -40,
+        "optimal_count": "1",
+        "total_count": "26951",
+        "branch_assignments": 2401
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 1,
+      "total_count_bits": 15,
+      "status": "passed"
+    },
+    {
+      "index": 17,
+      "family": "C_chain",
+      "label": "L=10",
+      "n": 58,
+      "m": 60,
+      "branches": 4,
+      "target_n": 118,
+      "target_m": 120,
+      "input_sha256": "80dadf7271b428e7c0bcfdb4ab305ac5589b4b9fb9c49a8e7864b03ad9749ca6",
+      "seconds": [
+        0.015278297000008934,
+        0.015128592999985813,
+        0.014747484999986682
+      ],
+      "median_seconds": 0.015128592999985813,
+      "python_peak_bytes": 141364,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -80,
+        "optimal_count": "24",
+        "total_count": "426801289279631",
+        "branch_assignments": 2401
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 5,
+      "total_count_bits": 49,
+      "status": "passed"
+    },
+    {
+      "index": 18,
+      "family": "C_chain",
+      "label": "L=30",
+      "n": 178,
+      "m": 180,
+      "branches": 4,
+      "target_n": 358,
+      "target_m": 360,
+      "input_sha256": "ab6ea31668a3fe3ce55b171a28bfc37cc1c3745f731af1775f9f9fa4af9a803c",
+      "seconds": [
+        0.026051959000028546,
+        0.026193640999963463,
+        0.025894223999955557
+      ],
+      "median_seconds": 0.026051959000028546,
+      "python_peak_bytes": 345884,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -249,
+        "optimal_count": "768",
+        "total_count": "87055192945745495474923937664159916689176168",
+        "branch_assignments": 2401
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 10,
+      "total_count_bits": 146,
+      "status": "passed"
+    },
+    {
+      "index": 19,
+      "family": "C_chain",
+      "label": "L=100",
+      "n": 598,
+      "m": 600,
+      "branches": 4,
+      "target_n": 1198,
+      "target_m": 1200,
+      "input_sha256": "2748c599cf273073c39ff54b89f3ea7b38153cdc086d107a53df65d6756e4612",
+      "seconds": [
+        0.060650636999980634,
+        0.06125816400003714,
+        0.06104383299998517
+      ],
+      "median_seconds": 0.06104383299998517,
+      "python_peak_bytes": 1070200,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -824,
+        "optimal_count": "7077888",
+        "total_count": "333787734362088464337493422170471523915183346696746053676434848384600774837894197514613508090511589927820263694809053681081061833568680212983570888",
+        "branch_assignments": 2401
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 23,
+      "total_count_bits": 487,
+      "status": "passed"
+    },
+    {
+      "index": 20,
+      "family": "C_chain",
+      "label": "L=300",
+      "n": 1798,
+      "m": 1800,
+      "branches": 4,
+      "target_n": 3598,
+      "target_m": 3600,
+      "input_sha256": "19de730030f441590b170b096ffbc9a7f0cbb9e9f34e94fdcfff457582fa09b0",
+      "seconds": [
+        0.16742523400000664,
+        0.1660275759999763,
+        0.16613847099995382
+      ],
+      "median_seconds": 0.16613847099995382,
+      "python_peak_bytes": 3167792,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -2195,
+        "optimal_count": "149179557193852092300656640",
+        "total_count": "41656869956359285141965562793451518223541485904684504363283490085482803257734694192732087591028149919404537911899621704977127281392129415962498030571226674489683010637966054764541899860862445639557749201105742049753456849895694394813791842878383208604108624311984411219648898376578295742460021405278690580768330151126583139468421477739907436435412536635110929776516202872499709416777145434397559623789551122728382628907929275796562522127251",
+        "branch_assignments": 2401
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 87,
+      "total_count_bits": 1461,
+      "status": "passed"
+    },
+    {
+      "index": 21,
+      "family": "C_chain",
+      "label": "L=1000",
+      "n": 5998,
+      "m": 6000,
+      "branches": 4,
+      "target_n": 11998,
+      "target_m": 12000,
+      "input_sha256": "899c01d2f0b4605161349d1aa3af08f2f519ba4c53524ff87db8c6347cd9f66a",
+      "seconds": [
+        0.5819197839999788,
+        0.5635636119999958,
+        0.5781517970000323
+      ],
+      "median_seconds": 0.5781517970000323,
+      "python_peak_bytes": 10677740,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -6789,
+        "optimal_count": "10325013949107841771023664264318015032294191601775222044842800295889076224000",
+        "total_count": "28605105072355707449337953413209585879168472633774227558156663685465264632756924404721463029523014906528907782944311418841483787267025277608299342318954333521950284777119778079542825595038458083729854956302914857724092929766343369145210137588571912258671329771052524506764305363161225840491035934132461109726903854373001918804411701588626735404908067329479189608436922343614869742845119249738981702457760003933277931705761135390053694647100478403466000464445786859142991107747384712010067684899436136968355090671652889902155914564383897875665983332349219276169925547004845580980746983015259317318415285352248040913233957392898553514775640617609601792193864790655103361534297873654782173061370140101568557628402801210008286117898499769190574369570796159299525384782538458996230471260702776660073462752714208367719568339828904584167937148928194995194680129556511502811328603674792473479200638165857585941457725765112117648563211001050495788811203391606476046063798145407084409691947418855378740487432544170444310539851691792774607413990564981118481751717765756780308934973714057738611302444284497029481414309692630309027915585228464465740085677422515024760121689582072969351571013185542558980703932123626409544365068554047872281296360096547948156319431390856257157660030892803193631824299921708734102314101592948492911689816326238623126151405792075802980313035136031253312892930699642682131487376656156349514066770942324473606093355802795397382199778870989679303982963",
+        "branch_assignments": 2401
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 253,
+      "total_count_bits": 4869,
+      "status": "passed"
+    },
+    {
+      "index": 22,
+      "family": "C_branches",
+      "label": "b=0",
+      "n": 64,
+      "m": 64,
+      "branches": 0,
+      "target_n": 128,
+      "target_m": 128,
+      "input_sha256": "773a305aa351aae2d5e464e42f9c518308f64d4d702cd636e8accc5e2d763a85",
+      "seconds": [
+        0.002280034000023079,
+        0.0027226859999700537,
+        0.0025395819999971536
+      ],
+      "median_seconds": 0.0025395819999971536,
+      "python_peak_bytes": 125796,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -95,
+        "optimal_count": "2",
+        "total_count": "4283494371512536",
+        "branch_assignments": 3
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 2,
+      "total_count_bits": 52,
+      "status": "passed"
+    },
+    {
+      "index": 23,
+      "family": "C_branches",
+      "label": "b=2",
+      "n": 64,
+      "m": 65,
+      "branches": 2,
+      "target_n": 129,
+      "target_m": 130,
+      "input_sha256": "6f1e0c974cf6c045ec424f6d49d0f78f29e262e64bfe635efab532c11e4b27af",
+      "seconds": [
+        0.005623967000019547,
+        0.005265340999983437,
+        0.005535324999982549
+      ],
+      "median_seconds": 0.005535324999982549,
+      "python_peak_bytes": 146500,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -98,
+        "optimal_count": "2",
+        "total_count": "7306782323343802",
+        "branch_assignments": 49
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 2,
+      "total_count_bits": 53,
+      "status": "passed"
+    },
+    {
+      "index": 24,
+      "family": "C_branches",
+      "label": "b=4",
+      "n": 64,
+      "m": 66,
+      "branches": 4,
+      "target_n": 130,
+      "target_m": 132,
+      "input_sha256": "36a58798e831e51eaf73c3a4fd90a4978a4456ca8923eafb3dfc0116168d751d",
+      "seconds": [
+        0.015746281000019735,
+        0.015519272000005913,
+        0.015509447999988879
+      ],
+      "median_seconds": 0.015519272000005913,
+      "python_peak_bytes": 152432,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -104,
+        "optimal_count": "2",
+        "total_count": "12464363582052741",
+        "branch_assignments": 2401
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 2,
+      "total_count_bits": 54,
+      "status": "passed"
+    },
+    {
+      "index": 25,
+      "family": "C_branches",
+      "label": "b=6",
+      "n": 64,
+      "m": 67,
+      "branches": 6,
+      "target_n": 131,
+      "target_m": 134,
+      "input_sha256": "402694e093dd448493841e82eab61814ebdbdc837e07e68c16aeb7898c85b944",
+      "seconds": [
+        0.622657084000025,
+        0.6207262309999919,
+        0.6260294799999997
+      ],
+      "median_seconds": 0.622657084000025,
+      "python_peak_bytes": 168572,
+      "memory_measurement": "separate tracemalloc run",
+      "answer": {
+        "value": -100,
+        "optimal_count": "2",
+        "total_count": "21254555549783082",
+        "branch_assignments": 117649
+      },
+      "validation": "explicit target forest + independent base DSU/root-neighbor maximality",
+      "optimal_count_bits": 2,
+      "total_count_bits": 55,
+      "status": "passed"
+    }
+  ]
+}

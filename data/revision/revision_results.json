@@ -1,0 +1,3568 @@
+{
+  "status": "passed",
+  "date": "2026-09-19",
+  "elapsed_seconds": 7.97225546836853,
+  "environment": {
+    "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+    "networkx": "3.1",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD"
+  },
+  "records": [
+    {
+      "suite": "original_recheck",
+      "case": "path4",
+      "status": "passed",
+      "value": 4,
+      "optimal_count": 1,
+      "total_count": 5
+    },
+    {
+      "suite": "original_recheck",
+      "case": "cycle3",
+      "status": "passed",
+      "value": -3,
+      "optimal_count": 2,
+      "total_count": 9
+    },
+    {
+      "suite": "original_recheck",
+      "case": "cycle4",
+      "status": "passed",
+      "value": -8,
+      "optimal_count": 1,
+      "total_count": 16
+    },
+    {
+      "suite": "original_recheck",
+      "case": "theta",
+      "status": "passed",
+      "value": -5,
+      "optimal_count": 1,
+      "total_count": 55
+    },
+    {
+      "suite": "original_recheck",
+      "case": "K4",
+      "status": "passed",
+      "value": -11,
+      "optimal_count": 1,
+      "total_count": 64
+    },
+    {
+      "suite": "original_recheck",
+      "case": "loop_chain",
+      "status": "passed",
+      "value": -7,
+      "optimal_count": 1,
+      "total_count": 21
+    },
+    {
+      "suite": "original_recheck",
+      "case": "two_loops_bridge",
+      "status": "passed",
+      "value": -16,
+      "optimal_count": 1,
+      "total_count": 90
+    },
+    {
+      "suite": "original_recheck",
+      "case": "disconnected",
+      "status": "passed",
+      "value": -9,
+      "optimal_count": 1,
+      "total_count": 18
+    },
+    {
+      "suite": "original_recheck",
+      "case": "empty",
+      "status": "passed",
+      "value": 0,
+      "optimal_count": 1,
+      "total_count": 1
+    },
+    {
+      "suite": "original_recheck",
+      "case": "net",
+      "status": "passed",
+      "kappa": 3,
+      "n": 6,
+      "m": 6,
+      "beta_max": 1
+    },
+    {
+      "suite": "original_recheck",
+      "case": "theta_with_leaves",
+      "status": "passed",
+      "kappa": 4,
+      "n": 10,
+      "m": 11,
+      "beta_max": 2
+    },
+    {
+      "suite": "original_recheck",
+      "case": "K4",
+      "status": "passed",
+      "kappa": 2,
+      "n": 4,
+      "m": 6,
+      "beta_max": 3
+    },
+    {
+      "suite": "original_recheck",
+      "case": "two_nets",
+      "status": "passed",
+      "kappa": 3,
+      "n": 12,
+      "m": 13,
+      "beta_max": 1
+    },
+    {
+      "suite": "original_recheck",
+      "case": "odd_cycle_leaf",
+      "status": "passed",
+      "kappa": 4,
+      "n": 8,
+      "m": 8,
+      "beta_max": 1
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "path4",
+      "scheme": "unit",
+      "seed": 2026091900,
+      "n": 4,
+      "m": 3,
+      "b": 0,
+      "value": 2,
+      "optimal_count": 1,
+      "total_count": 5,
+      "ordinary_examined": 21,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "path4",
+      "scheme": "zero",
+      "seed": 2026091900,
+      "n": 4,
+      "m": 3,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 5,
+      "total_count": 5,
+      "ordinary_examined": 21,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "path4",
+      "scheme": "negative",
+      "seed": 2026091900,
+      "n": 4,
+      "m": 3,
+      "b": 0,
+      "value": -3,
+      "optimal_count": 4,
+      "total_count": 5,
+      "ordinary_examined": 21,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "path4",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091900,
+      "n": 4,
+      "m": 3,
+      "b": 0,
+      "value": -3,
+      "optimal_count": 2,
+      "total_count": 5,
+      "ordinary_examined": 21,
+      "witness": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "cycle3",
+      "scheme": "unit",
+      "seed": 2026091901,
+      "n": 3,
+      "m": 3,
+      "b": 0,
+      "value": 2,
+      "optimal_count": 9,
+      "total_count": 9,
+      "ordinary_examined": 18,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "cycle3",
+      "scheme": "zero",
+      "seed": 2026091901,
+      "n": 3,
+      "m": 3,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 9,
+      "total_count": 9,
+      "ordinary_examined": 18,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "cycle3",
+      "scheme": "negative",
+      "seed": 2026091901,
+      "n": 3,
+      "m": 3,
+      "b": 0,
+      "value": -2,
+      "optimal_count": 9,
+      "total_count": 9,
+      "ordinary_examined": 18,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "cycle3",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091901,
+      "n": 3,
+      "m": 3,
+      "b": 0,
+      "value": 3,
+      "optimal_count": 2,
+      "total_count": 9,
+      "ordinary_examined": 18,
+      "witness": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "cycle4",
+      "scheme": "unit",
+      "seed": 2026091902,
+      "n": 4,
+      "m": 4,
+      "b": 0,
+      "value": 3,
+      "optimal_count": 16,
+      "total_count": 16,
+      "ordinary_examined": 47,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "cycle4",
+      "scheme": "zero",
+      "seed": 2026091902,
+      "n": 4,
+      "m": 4,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 16,
+      "total_count": 16,
+      "ordinary_examined": 47,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "cycle4",
+      "scheme": "negative",
+      "seed": 2026091902,
+      "n": 4,
+      "m": 4,
+      "b": 0,
+      "value": -3,
+      "optimal_count": 16,
+      "total_count": 16,
+      "ordinary_examined": 47,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "cycle4",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091902,
+      "n": 4,
+      "m": 4,
+      "b": 0,
+      "value": -4,
+      "optimal_count": 1,
+      "total_count": 16,
+      "ordinary_examined": 47,
+      "witness": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "theta",
+      "scheme": "unit",
+      "seed": 2026091903,
+      "n": 5,
+      "m": 6,
+      "b": 2,
+      "value": 4,
+      "optimal_count": 55,
+      "total_count": 55,
+      "ordinary_examined": 233,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "theta",
+      "scheme": "zero",
+      "seed": 2026091903,
+      "n": 5,
+      "m": 6,
+      "b": 2,
+      "value": 0,
+      "optimal_count": 55,
+      "total_count": 55,
+      "ordinary_examined": 233,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "theta",
+      "scheme": "negative",
+      "seed": 2026091903,
+      "n": 5,
+      "m": 6,
+      "b": 2,
+      "value": -4,
+      "optimal_count": 55,
+      "total_count": 55,
+      "ordinary_examined": 233,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "theta",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091903,
+      "n": 5,
+      "m": 6,
+      "b": 2,
+      "value": -4,
+      "optimal_count": 1,
+      "total_count": 55,
+      "ordinary_examined": 233,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "K4",
+      "scheme": "unit",
+      "seed": 2026091904,
+      "n": 4,
+      "m": 6,
+      "b": 4,
+      "value": 3,
+      "optimal_count": 64,
+      "total_count": 64,
+      "ordinary_examined": 163,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "K4",
+      "scheme": "zero",
+      "seed": 2026091904,
+      "n": 4,
+      "m": 6,
+      "b": 4,
+      "value": 0,
+      "optimal_count": 64,
+      "total_count": 64,
+      "ordinary_examined": 163,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "K4",
+      "scheme": "negative",
+      "seed": 2026091904,
+      "n": 4,
+      "m": 6,
+      "b": 4,
+      "value": -3,
+      "optimal_count": 64,
+      "total_count": 64,
+      "ordinary_examined": 163,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "K4",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091904,
+      "n": 4,
+      "m": 6,
+      "b": 4,
+      "value": -11,
+      "optimal_count": 1,
+      "total_count": 64,
+      "ordinary_examined": 163,
+      "witness": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "loop_chain",
+      "scheme": "unit",
+      "seed": 2026091905,
+      "n": 5,
+      "m": 5,
+      "b": 1,
+      "value": 3,
+      "optimal_count": 1,
+      "total_count": 21,
+      "ordinary_examined": 115,
+      "witness": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "loop_chain",
+      "scheme": "zero",
+      "seed": 2026091905,
+      "n": 5,
+      "m": 5,
+      "b": 1,
+      "value": 0,
+      "optimal_count": 21,
+      "total_count": 21,
+      "ordinary_examined": 115,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "loop_chain",
+      "scheme": "negative",
+      "seed": 2026091905,
+      "n": 5,
+      "m": 5,
+      "b": 1,
+      "value": -4,
+      "optimal_count": 20,
+      "total_count": 21,
+      "ordinary_examined": 115,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "loop_chain",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091905,
+      "n": 5,
+      "m": 5,
+      "b": 1,
+      "value": 0,
+      "optimal_count": 2,
+      "total_count": 21,
+      "ordinary_examined": 115,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "two_loops_bridge",
+      "scheme": "unit",
+      "seed": 2026091906,
+      "n": 6,
+      "m": 7,
+      "b": 2,
+      "value": 4,
+      "optimal_count": 36,
+      "total_count": 90,
+      "ordinary_examined": 612,
+      "witness": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "two_loops_bridge",
+      "scheme": "zero",
+      "seed": 2026091906,
+      "n": 6,
+      "m": 7,
+      "b": 2,
+      "value": 0,
+      "optimal_count": 90,
+      "total_count": 90,
+      "ordinary_examined": 612,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "two_loops_bridge",
+      "scheme": "negative",
+      "seed": 2026091906,
+      "n": 6,
+      "m": 7,
+      "b": 2,
+      "value": -5,
+      "optimal_count": 54,
+      "total_count": 90,
+      "ordinary_examined": 612,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "two_loops_bridge",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091906,
+      "n": 6,
+      "m": 7,
+      "b": 2,
+      "value": -21,
+      "optimal_count": 1,
+      "total_count": 90,
+      "ordinary_examined": 612,
+      "witness": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "disconnected",
+      "scheme": "unit",
+      "seed": 2026091907,
+      "n": 5,
+      "m": 4,
+      "b": 0,
+      "value": 3,
+      "optimal_count": 18,
+      "total_count": 18,
+      "ordinary_examined": 54,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "disconnected",
+      "scheme": "zero",
+      "seed": 2026091907,
+      "n": 5,
+      "m": 4,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 18,
+      "total_count": 18,
+      "ordinary_examined": 54,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "disconnected",
+      "scheme": "negative",
+      "seed": 2026091907,
+      "n": 5,
+      "m": 4,
+      "b": 0,
+      "value": -3,
+      "optimal_count": 18,
+      "total_count": 18,
+      "ordinary_examined": 54,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "disconnected",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091907,
+      "n": 5,
+      "m": 4,
+      "b": 0,
+      "value": -3,
+      "optimal_count": 1,
+      "total_count": 18,
+      "ordinary_examined": 54,
+      "witness": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "empty",
+      "scheme": "unit",
+      "seed": 2026091908,
+      "n": 0,
+      "m": 0,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 1,
+      "total_count": 1,
+      "ordinary_examined": 1,
+      "witness": [],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "empty",
+      "scheme": "zero",
+      "seed": 2026091908,
+      "n": 0,
+      "m": 0,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 1,
+      "total_count": 1,
+      "ordinary_examined": 1,
+      "witness": [],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "empty",
+      "scheme": "negative",
+      "seed": 2026091908,
+      "n": 0,
+      "m": 0,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 1,
+      "total_count": 1,
+      "ordinary_examined": 1,
+      "witness": [],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "empty",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091908,
+      "n": 0,
+      "m": 0,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 1,
+      "total_count": 1,
+      "ordinary_examined": 1,
+      "witness": [],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "isolated",
+      "scheme": "unit",
+      "seed": 2026091909,
+      "n": 1,
+      "m": 0,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 1,
+      "total_count": 1,
+      "ordinary_examined": 1,
+      "witness": [],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "isolated",
+      "scheme": "zero",
+      "seed": 2026091909,
+      "n": 1,
+      "m": 0,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 1,
+      "total_count": 1,
+      "ordinary_examined": 1,
+      "witness": [],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "isolated",
+      "scheme": "negative",
+      "seed": 2026091909,
+      "n": 1,
+      "m": 0,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 1,
+      "total_count": 1,
+      "ordinary_examined": 1,
+      "witness": [],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "isolated",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091909,
+      "n": 1,
+      "m": 0,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 1,
+      "total_count": 1,
+      "ordinary_examined": 1,
+      "witness": [],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "edge",
+      "scheme": "unit",
+      "seed": 2026091910,
+      "n": 2,
+      "m": 1,
+      "b": 0,
+      "value": 1,
+      "optimal_count": 2,
+      "total_count": 2,
+      "ordinary_examined": 3,
+      "witness": [
+        [
+          1,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "edge",
+      "scheme": "zero",
+      "seed": 2026091910,
+      "n": 2,
+      "m": 1,
+      "b": 0,
+      "value": 0,
+      "optimal_count": 2,
+      "total_count": 2,
+      "ordinary_examined": 3,
+      "witness": [
+        [
+          1,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "edge",
+      "scheme": "negative",
+      "seed": 2026091910,
+      "n": 2,
+      "m": 1,
+      "b": 0,
+      "value": -1,
+      "optimal_count": 2,
+      "total_count": 2,
+      "ordinary_examined": 3,
+      "witness": [
+        [
+          1,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "edge",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091910,
+      "n": 2,
+      "m": 1,
+      "b": 0,
+      "value": -5,
+      "optimal_count": 1,
+      "total_count": 2,
+      "ordinary_examined": 3,
+      "witness": [
+        [
+          1,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "star3",
+      "scheme": "unit",
+      "seed": 2026091911,
+      "n": 4,
+      "m": 3,
+      "b": 1,
+      "value": 3,
+      "optimal_count": 4,
+      "total_count": 4,
+      "ordinary_examined": 20,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "star3",
+      "scheme": "zero",
+      "seed": 2026091911,
+      "n": 4,
+      "m": 3,
+      "b": 1,
+      "value": 0,
+      "optimal_count": 4,
+      "total_count": 4,
+      "ordinary_examined": 20,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "star3",
+      "scheme": "negative",
+      "seed": 2026091911,
+      "n": 4,
+      "m": 3,
+      "b": 1,
+      "value": -3,
+      "optimal_count": 4,
+      "total_count": 4,
+      "ordinary_examined": 20,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    },
+    {
+      "suite": "boundary_cost",
+      "case": "star3",
+      "scheme": "signed_asymmetric",
+      "seed": 2026091911,
+      "n": 4,
+      "m": 3,
+      "b": 1,
+      "value": 4,
+      "optimal_count": 1,
+      "total_count": 4,
+      "ordinary_examined": 20,
+      "witness": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "witness_checked": true,
+      "status": "passed"
+    }
+  ],
+  "structural": [
+    {
+      "case": "labelled_n0_mask0",
+      "nodes": [],
+      "edges": [],
+      "rho": 0,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n1_mask0",
+      "nodes": [
+        0
+      ],
+      "edges": [],
+      "rho": 1,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n2_mask0",
+      "nodes": [
+        0,
+        1
+      ],
+      "edges": [],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n2_mask1",
+      "nodes": [
+        0,
+        1
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "rho": 1,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n3_mask0",
+      "nodes": [
+        0,
+        1,
+        2
+      ],
+      "edges": [],
+      "rho": 3,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n3_mask1",
+      "nodes": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n3_mask2",
+      "nodes": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n3_mask3",
+      "nodes": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "rho": 1,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n3_mask4",
+      "nodes": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n3_mask5",
+      "nodes": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 1,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n3_mask6",
+      "nodes": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 1,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n3_mask7",
+      "nodes": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask0",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [],
+      "rho": 4,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask1",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "rho": 3,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask2",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "rho": 3,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask3",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask4",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "rho": 3,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask5",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask6",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask7",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask8",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 3,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask9",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask10",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask11",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 2,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask12",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask13",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask14",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask15",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask16",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 3,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask17",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask18",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask19",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask20",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask21",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask22",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask23",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask24",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask25",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask26",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask27",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask28",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask29",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask30",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask31",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3,
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask32",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 3,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask33",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask34",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask35",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask36",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask37",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask38",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask39",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask40",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask41",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask42",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask43",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask44",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask45",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask46",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask47",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3,
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask48",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask49",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask50",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask51",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask52",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [],
+      "kappa": 2,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask53",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask54",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask55",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3,
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask56",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 2,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask57",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask58",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask59",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3,
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask60",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3
+      ],
+      "kappa": 3,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask61",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3,
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask62",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3,
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    },
+    {
+      "case": "labelled_n4_mask63",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "rho": 1,
+      "Q": [
+        3,
+        4
+      ],
+      "kappa": 4,
+      "status": "passed"
+    }
+  ],
+  "baselines": [
+    {
+      "case": "K4",
+      "n": 4,
+      "m": 6,
+      "b": 4,
+      "parent_configurations": 256,
+      "branch_assignments": 2401,
+      "times": {
+        "chain": {
+          "seconds": [
+            0.024514800000360992,
+            0.02604479999990872,
+            0.02902159999939613
+          ],
+          "median_seconds": 0.02604479999990872
+        },
+        "parent": {
+          "seconds": [
+            0.0022280000002865563,
+            0.0023872000001574634,
+            0.0022136000006867107
+          ],
+          "median_seconds": 0.0022280000002865563
+        }
+      },
+      "result": {
+        "value": -9,
+        "optimal_count": 1,
+        "total_count": 64
+      },
+      "status": "passed"
+    },
+    {
+      "case": "theta_L2",
+      "n": 5,
+      "m": 6,
+      "b": 2,
+      "parent_configurations": 432,
+      "branch_assignments": 49,
+      "times": {
+        "chain": {
+          "seconds": [
+            0.0017641999993429636,
+            0.002276499999425141,
+            0.001618399999642861
+          ],
+          "median_seconds": 0.0017641999993429636
+        },
+        "parent": {
+          "seconds": [
+            0.003382199999578006,
+            0.003319999999803258,
+            0.0033339000001433305
+          ],
+          "median_seconds": 0.0033339000001433305
+        }
+      },
+      "result": {
+        "value": -12,
+        "optimal_count": 1,
+        "total_count": 60
+      },
+      "status": "passed"
+    },
+    {
+      "case": "theta_L3",
+      "n": 8,
+      "m": 9,
+      "b": 2,
+      "parent_configurations": 11664,
+      "branch_assignments": 49,
+      "times": {
+        "chain": {
+          "seconds": [
+            0.0027190999999220367,
+            0.00271100000009028,
+            0.0026451000003362424
+          ],
+          "median_seconds": 0.00271100000009028
+        },
+        "parent": {
+          "seconds": [
+            0.09560169999986101,
+            0.1100298000001203,
+            0.09507140000005165
+          ],
+          "median_seconds": 0.09560169999986101
+        }
+      },
+      "result": {
+        "value": -2,
+        "optimal_count": 3,
+        "total_count": 235
+      },
+      "status": "passed"
+    },
+    {
+      "case": "theta_L4",
+      "n": 11,
+      "m": 12,
+      "b": 2,
+      "parent_configurations": 314928,
+      "branch_assignments": 49,
+      "times": {
+        "chain": {
+          "seconds": [
+            0.0028149999998277053,
+            0.00421100000039587,
+            0.0027186999996047234
+          ],
+          "median_seconds": 0.0028149999998277053
+        },
+        "parent": {
+          "seconds": [
+            2.372240700000475,
+            2.3613981999997122,
+            2.4066528999992443
+          ],
+          "median_seconds": 2.372240700000475
+        }
+      },
+      "result": {
+        "value": -16,
+        "optimal_count": 1,
+        "total_count": 1013
+      },
+      "status": "passed"
+    }
+  ],
+  "c6": {
+    "ordinary_sizes": [
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "acyclic_sizes": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "solver_sha256": "fdfc5156b6549c4f6af342f542032549571df211220ac437fdfcdf2b40280ff5",
+  "validation_sha256": "1c0a2f33bb34774e2a1c6968d1da19bce6396d64791a3c3576ebb068183e9fbd"
+}

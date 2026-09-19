@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use the implementation or data."
+type: software
+title: "Acyclic Matching Locality: Algorithms and Reproducibility Data"
+authors:
+  - family-names: Tang
+    given-names: Hao
+    affiliation: "School of Software, Jilin University"
+    email: "tanghao5524@mails.jlu.edu.cn"
+version: 0.1.0
+date-released: 2026-09-19
+repository-code: "https://github.com/Tanghao514/acyclic-matching-locality"
+license: MIT

@@ -1,0 +1,27 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "networkx": "3.6.1",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "cpu_count": 5,
+  "seed": 2026091601,
+  "repeats": 3,
+  "timeout_seconds": 90,
+  "timing": "sequential, construction and validation excluded; no parallel benchmark cases",
+  "solver_hashes": {
+    "order_twins.py": "2cf8794d935c605b3b81b9a836ac2653233b0b7469153c35d7fa8b2da5fd65dd",
+    "incidence_matching.py": "fdfc5156b6549c4f6af342f542032549571df211220ac437fdfcdf2b40280ff5",
+    "test_blocks.py": "42a8c35476dafb67d0223638dedcc76deccee988b31667150d1a8f9ab693eb4c",
+    "direct_oracles.py": "992cac6923378ecfcaec6a9112d12d5ff29c2f1b61b68f2a2cc77cce4f0b03f5",
+    "offline_cover.py": "bcd3645e000a0a67c22257d5c9867f4de9cd8266cc1036813b97a6df6e59294a",
+    "block_locality.py": "ef9fdd55ceac613c49952121f1f00727603f2c5ce9b4c7f4c4382e259b14b793",
+    "multiplicity_cover.py": "a0cd93417f38fbab895ad963fcc7df3e896eb5518975eac9726d0b81146c2e54",
+    "test_matching_counts.py": "1d0057dd8341469e0a6ab8ee46e3ec3f1318bbee63ee485099f65ad28da98a12",
+    "cycle_rank_locality_v7.py": "a607134c828d0b8eab335847fe46da5794869c19a27891e2516768fb6ed48b95",
+    "direct_checks.py": "50759d36e201480be271a66a2bc2db915ce712701f198bd529daab67930cadbd",
+    "run_all.py": "bba8d52f1b0312b3326c6f91e9519893a8188ae30379637ac34617fe0c083ebb",
+    "test_A_reproduction.py": "2c0a3dd71b54bdbd2eb7acca89f01a52e1b846f831520c1c9543eae7c1ef703e",
+    "test_incidence.py": "f8c76400bf9ac3b8491fd91dd81826eb394bf1771352a0f8c6fb851b80f75faa",
+    "baseline_v5.py": "ed970e1c3d8ad3c33a58760fe3b3332293dced4d8095d7a3d4e3777732f6593b"
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "route": "C",
+      "case": "path4",
+      "n_half": 4,
+      "n_target": 7,
+      "m_target": 6,
+      "solver": {
+        "seconds": [
+          0.0006254040001749672,
+          0.000251365000167425,
+          0.00024357300003430282
+        ],
+        "median_seconds": 0.000251365000167425,
+        "python_peak_bytes": 9856,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.00019473099996503151,
+          0.00017898700002660917,
+          0.00017638300005273777
+        ],
+        "median_seconds": 0.00017898700002660917,
+        "python_peak_bytes": 15056,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "counts": {
+        "optimal_count": "1",
+        "total_count": "5"
+      },
+      "optimum": 4,
+      "ordinary_matchings": 21,
+      "status": "passed"
+    },
+    {
+      "route": "C",
+      "case": "cycle3",
+      "n_half": 3,
+      "n_target": 6,
+      "m_target": 6,
+      "solver": {
+        "seconds": [
+          0.00022970299983171572,
+          0.00021820599999955448,
+          0.0004269369999292394
+        ],
+        "median_seconds": 0.00022970299983171572,
+        "python_peak_bytes": 10240,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.0001867189998847607,
+          0.00015928800007714017,
+          0.0001727779999782797
+        ],
+        "median_seconds": 0.0001727779999782797,
+        "python_peak_bytes": 14856,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "counts": {
+        "optimal_count": "2",
+        "total_count": "9"
+      },
+      "optimum": -3,
+      "ordinary_matchings": 18,
+      "status": "passed"
+    },
+    {
+      "route": "C",
+      "case": "cycle4",
+      "n_half": 4,
+      "n_target": 8,
+      "m_target": 8,
+      "solver": {
+        "seconds": [
+          0.00024559700000281737,
+          0.0002478399999290559,
+          0.00024505600003976724
+        ],
+        "median_seconds": 0.00024559700000281737,
+        "python_peak_bytes": 11480,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.00030868099997860554,
+          0.00023122599986891146,
+          0.00023497100005442917
+        ],
+        "median_seconds": 0.00023497100005442917,
+        "python_peak_bytes": 20884,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "counts": {
+        "optimal_count": "1",
+        "total_count": "16"
+      },
+      "optimum": -8,
+      "ordinary_matchings": 47,
+      "status": "passed"
+    },
+    {
+      "route": "C",
+      "case": "theta",
+      "n_half": 5,
+      "n_target": 11,
+      "m_target": 12,
+      "solver": {
+        "seconds": [
+          0.0007037810000838363,
+          0.0022188939999523427,
+          0.0007387440000456991
+        ],
+        "median_seconds": 0.0007387440000456991,
+        "python_peak_bytes": 31952,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.0013041279999015387,
+          0.0009663439998348622,
+          0.0009791219999897294
+        ],
+        "median_seconds": 0.0009791219999897294,
+        "python_peak_bytes": 45512,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "counts": {
+        "optimal_count": "1",
+        "total_count": "55"
+      },
+      "optimum": -5,
+      "ordinary_matchings": 233,
+      "status": "passed"
+    },
+    {
+      "route": "C",
+      "case": "K4",
+      "n_half": 4,
+      "n_target": 10,
+      "m_target": 12,
+      "solver": {
+        "seconds": [
+          0.0071207070000127715,
+          0.00822543799995401,
+          0.007379564000075334
+        ],
+        "median_seconds": 0.007379564000075334,
+        "python_peak_bytes": 40056,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.0008403450001424062,
+          0.0007335059999604709,
+          0.0006855439999071677
+        ],
+        "median_seconds": 0.0007335059999604709,
+        "python_peak_bytes": 36948,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "counts": {
+        "optimal_count": "1",
+        "total_count": "64"
+      },
+      "optimum": -11,
+      "ordinary_matchings": 163,
+      "status": "passed"
+    },
+    {
+      "route": "C",
+      "case": "loop_chain",
+      "n_half": 5,
+      "n_target": 10,
+      "m_target": 10,
+      "solver": {
+        "seconds": [
+          0.00048244999993585225,
+          0.00047104400005082425,
+          0.00046114899987514946
+        ],
+        "median_seconds": 0.00047104400005082425,
+        "python_peak_bytes": 22888,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.0005944380000073579,
+          0.0005054249998011073,
+          0.0004749390000142739
+        ],
+        "median_seconds": 0.0005054249998011073,
+        "python_peak_bytes": 31284,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "counts": {
+        "optimal_count": "1",
+        "total_count": "21"
+      },
+      "optimum": -7,
+      "ordinary_matchings": 115,
+      "status": "passed"
+    },
+    {
+      "route": "C",
+      "case": "two_loops_bridge",
+      "n_half": 6,
+      "n_target": 13,
+      "m_target": 14,
+      "solver": {
+        "seconds": [
+          0.0006755900001280679,
+          0.0007191540000803798,
+          0.0006786339999962365
+        ],
+        "median_seconds": 0.0006786339999962365,
+        "python_peak_bytes": 34192,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.0024368399999730173,
+          0.002639493000060611,
+          0.0021850040000117588
+        ],
+        "median_seconds": 0.0024368399999730173,
+        "python_peak_bytes": 72004,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "counts": {
+        "optimal_count": "1",
+        "total_count": "90"
+      },
+      "optimum": -16,
+      "ordinary_matchings": 612,
+      "status": "passed"
+    },
+    {
+      "route": "C",
+      "case": "disconnected",
+      "n_half": 5,
+      "n_target": 9,
+      "m_target": 8,
+      "solver": {
+        "seconds": [
+          0.0002970729999560717,
+          0.00031211699979394325,
+          0.00032327300004908466
+        ],
+        "median_seconds": 0.00031211699979394325,
+        "python_peak_bytes": 11128,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.0003830719999768917,
+          0.000304554999956963,
+          0.0002674489999208163
+        ],
+        "median_seconds": 0.000304554999956963,
+        "python_peak_bytes": 23084,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "counts": {
+        "optimal_count": "1",
+        "total_count": "18"
+      },
+      "optimum": -9,
+      "ordinary_matchings": 54,
+      "status": "passed"
+    },
+    {
+      "route": "C",
+      "case": "empty",
+      "n_half": 0,
+      "n_target": 0,
+      "m_target": 0,
+      "solver": {
+        "seconds": [
+          3.5102999845548766e-05,
+          3.794600002038351e-05,
+          3.4671999856072944e-05
+        ],
+        "median_seconds": 3.5102999845548766e-05,
+        "python_peak_bytes": 1480,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          8.499699993080867e-05,
+          0.0002812200000334997,
+          7.610400007251883e-05
+        ],
+        "median_seconds": 8.499699993080867e-05,
+        "python_peak_bytes": 4672,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "counts": {
+        "optimal_count": "1",
+        "total_count": "1"
+      },
+      "optimum": 0,
+      "ordinary_matchings": 1,
+      "status": "passed"
+    },
+    {
+      "route": "B",
+      "case": "net",
+      "n": 6,
+      "m": 6,
+      "solver": {
+        "seconds": [
+          0.0010860820000289095,
+          0.0003983349999998609,
+          0.0003576339997835021
+        ],
+        "median_seconds": 0.0003983349999998609,
+        "python_peak_bytes": 22464,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          9.600300018064445e-05,
+          9.468100006415625e-05,
+          9.225799999512674e-05
+        ],
+        "median_seconds": 9.468100006415625e-05,
+        "python_peak_bytes": 7056,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "kappa": 3,
+      "ordinary_matchings": 14,
+      "status": "passed"
+    },
+    {
+      "route": "B",
+      "case": "theta_with_leaves",
+      "n": 10,
+      "m": 11,
+      "solver": {
+        "seconds": [
+          0.00042014800010292674,
+          0.0004946190001646755,
+          0.00041821500008154544
+        ],
+        "median_seconds": 0.00042014800010292674,
+        "python_peak_bytes": 30288,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.00047397799994541856,
+          0.0003290610000021843,
+          0.00034579699990899826
+        ],
+        "median_seconds": 0.00034579699990899826,
+        "python_peak_bytes": 20144,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "kappa": 4,
+      "ordinary_matchings": 92,
+      "status": "passed"
+    },
+    {
+      "route": "B",
+      "case": "K4",
+      "n": 4,
+      "m": 6,
+      "solver": {
+        "seconds": [
+          0.0003850450000300043,
+          0.00036718900014420797,
+          0.0003996069999629981
+        ],
+        "median_seconds": 0.0003850450000300043,
+        "python_peak_bytes": 19896,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          8.17630000256031e-05,
+          8.069099999374885e-05,
+          7.549299994025205e-05
+        ],
+        "median_seconds": 8.069099999374885e-05,
+        "python_peak_bytes": 6000,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "kappa": 2,
+      "ordinary_matchings": 10,
+      "status": "passed"
+    },
+    {
+      "route": "B",
+      "case": "two_nets",
+      "n": 12,
+      "m": 13,
+      "solver": {
+        "seconds": [
+          0.0005025099999329541,
+          0.0004729470001620939,
+          0.000518384999850241
+        ],
+        "median_seconds": 0.0005025099999329541,
+        "python_peak_bytes": 34672,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.0012830470000153582,
+          0.0007009370001469506,
+          0.000649209999892264
+        ],
+        "median_seconds": 0.0007009370001469506,
+        "python_peak_bytes": 31400,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "kappa": 3,
+      "ordinary_matchings": 221,
+      "status": "passed"
+    },
+    {
+      "route": "B",
+      "case": "odd_cycle_leaf",
+      "n": 8,
+      "m": 8,
+      "solver": {
+        "seconds": [
+          0.0003346000000874483,
+          0.00035801500007437426,
+          0.00033401900009266683
+        ],
+        "median_seconds": 0.0003346000000874483,
+        "python_peak_bytes": 26720,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "ordinary_enumeration": {
+        "seconds": [
+          0.00029894599992985604,
+          0.00015668400010326877,
+          0.00014462600006481807
+        ],
+        "median_seconds": 0.00015668400010326877,
+        "python_peak_bytes": 9776,
+        "memory_measurement": "separate tracemalloc run"
+      },
+      "kappa": 4,
+      "ordinary_matchings": 42,
+      "status": "passed"
+    }
+  ]
+}
